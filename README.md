@@ -9,7 +9,7 @@ Steps to do it here:
 2. Select "New" and then "Shortcut".
 3. In the "Create Shortcut" window, enter the following command in the "Type the location of the item" field:
 
-    powershell.exe -ExecutionPolicy Bypass -Command "Start-Process powershell.exe -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File ""C:\Path\To\YourScript.ps1""' -Verb RunAs"
+    powershell.exe -ExecutionPolicy Bypass -Command "Start-Process powershell.exe -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File ""C:\Path\To\pubgi-fix-gui.ps11""' -Verb RunAs"
 
     Replace "C:\Path\To\pubgi-fix-gui.ps1" with the actual path to your PowerShell script.
     Click "Next".
